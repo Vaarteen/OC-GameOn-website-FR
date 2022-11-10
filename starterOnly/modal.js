@@ -84,6 +84,9 @@ function validate() {
     isOk = false;
     showErrorMessage(accept);
   }
+  if (isOk) {
+    alert("Merci ! Votre réservation a été reçue.");
+  }
   return isOk;
 }
 
